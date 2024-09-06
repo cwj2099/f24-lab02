@@ -1,5 +1,6 @@
 import { newRectangle } from "./shapes/rectangle.js";
 
+//Change the rectangle to shape, as shape is the interface now
 function newRenderer(shape: Shape) {
     return {
         draw() {
