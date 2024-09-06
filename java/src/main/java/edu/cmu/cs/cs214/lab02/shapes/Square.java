@@ -1,6 +1,7 @@
 package edu.cmu.cs.cs214.lab02.shapes;
 
 public class Square implements Shape {
+    //Changed Encalp
     private double sideLen;
 
     public Square(double sideLen) {
